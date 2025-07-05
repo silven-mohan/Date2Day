@@ -41,4 +41,8 @@ Enter the month name: June
 
 14 June 2025 is Saturday
 
+## 📃License
+
+  See included [LICENSE](./LICENSE) file for more details.
+
 ## Author-Silven Mohan
