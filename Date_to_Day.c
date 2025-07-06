@@ -81,6 +81,5 @@ int main()
 			printf("%d %s %d is Friday",q, month, y);
 				break;
 	}
-
 	return 0;
 }
