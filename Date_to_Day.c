@@ -1,9 +1,10 @@
 /** Date2Day **/
 
+#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 
-main()
+int main()
 {
 	int q, m, y, k, j, h;
 	char month[10];
@@ -54,7 +55,7 @@ main()
 	
 	/** Zeller's Formula **/
 	h=(q+((13*(m+1))/5)+k+(k/4)+(j/4)+5*j)%7;
-	system("cls");
+	// system("cls");
 	
 	switch(h)
 	{
@@ -80,4 +81,6 @@ main()
 			printf("%d %s %d is Friday",q, month, y);
 				break;
 	}
+
+	return 0;
 }
