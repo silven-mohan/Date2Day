@@ -1,5 +1,10 @@
 # Date2Day
 
+
+![CI](https://github.com/silven-mohan/Date2Day/actions/workflows/.github/workflows/main.yml/badge.svg)
+
+-----
+
 # 📆 Date2Day — Find the Day for Any Date
 
 **Date2Day** is a C program that calculates the day of the week for any given date using **Zeller's Congruence**. It accepts date, month (as a string), and year from the user and outputs the corresponding weekday.
