@@ -32,6 +32,26 @@
 
 ---
 
+## 📅 Zeller's Congruence
+```c
+h = (q + (13 * (m + 1)) / 5 + k + k / 4 + j / 4 + 5 * j) % 7;
+```
+Where:
+
+   * h → Day of the week (0 = Saturday, 1 = Sunday, ..., 6 = Friday)
+
+   * q → Day of the month
+
+   * m → Month (3 = March, 4 = April, ..., 12 = December, Jan & Feb are counted as 13 & 14 of       previous year)
+
+   * k → Year of the century (year % 100)
+
+   * j → Zero-based century (year / 100)
+
+----
+
+💡 Example:
+
 ## 📦 Compile & Run
 
 ```bash
